@@ -194,10 +194,6 @@ function StarWars() {
     );
   }
 
-  useEffect(() => {
-    loadCategory();
-  }, []);
-
   if (loading)
     return (
       <div className="container">
